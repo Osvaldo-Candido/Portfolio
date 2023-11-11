@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Cookie&family=Inter:wght@100;200;300;500;600;700;800;900&family=Poppins:wght@400;600&display=swap');
+header {
+    z-index: 1001 !important;
+}
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+   /* background: #fff; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 42px;
+    border: 1px solid indigo;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 88px;
+    height: 88px;
+    object-fit: cover;
+    margin: auto;
+    border-radius: 50%;
+  }
